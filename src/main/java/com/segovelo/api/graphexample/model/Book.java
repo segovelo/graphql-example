@@ -5,6 +5,12 @@ public class Book {
     private String author;
     private String title;
     
+	public Book(Integer id, String author, String title) {
+		super();
+		this.id = id;
+		this.author = author;
+		this.title = title;
+	}
 	public Integer getId() {
 		return id;
 	}
