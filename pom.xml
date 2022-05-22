@@ -18,12 +18,21 @@
 	</properties>
 	<dependencies>
 	
-	<!-- https://mvnrepository.com/artifact/com.graphql-java/graphql-spring-boot-starter -->
+	<!-- https://mvnrepository.com/artifact/com.graphql-java/graphql-spring-boot-starter 
 		<dependency>
 		    <groupId>com.graphql-java</groupId>
 		    <artifactId>graphql-spring-boot-starter</artifactId>
 		    <version>5.0.2</version>
-		</dependency>
+		</dependency>   
+		-->
+
+	<!-- https://mvnrepository.com/artifact/com.graphql-java-kickstart/graphql-spring-boot-starter -->
+	<dependency>
+	    <groupId>com.graphql-java-kickstart</groupId>
+	    <artifactId>graphql-spring-boot-starter</artifactId>
+	    <version>12.0.0</version>
+	</dependency>
+
 
 	<!-- https://mvnrepository.com/artifact/io.leangen.graphql/graphql-spqr-spring-boot-starter -->
 		<dependency>
@@ -35,7 +44,7 @@
 		<dependency>
 		    <groupId>io.leangen.graphql</groupId>
 		    <artifactId>spqr</artifactId>
-		    <version>0.11.2</version>
+		    <version>0.10.0</version>
 		</dependency>
     	
 
