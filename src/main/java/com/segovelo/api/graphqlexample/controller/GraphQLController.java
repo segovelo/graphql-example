@@ -22,7 +22,7 @@ public class GraphQLController {
 
     @Autowired
     public GraphQLController(BookService bookResolver) {
-        GraphQLSchema schema = new GraphQLSchemaGenerator().withBasePackages("com.segovelo")
+        GraphQLSchema schema = new GraphQLSchemaGenerator().withBasePackages("com.segovelo.api.graphqlexample")
             .withOperationsFromSingleton(bookResolver)
             .generate();
         this.graphQL = new GraphQL.Builder(schema).build();

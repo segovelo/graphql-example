@@ -2,7 +2,7 @@ package com.segovelo.api.graphqlexample.service;
 
 import java.util.List;
 
-import com.segovelo.api.graphexample.model.Book;
+import com.segovelo.api.graphqlexample.model.Book;
 
 public interface BookService {
     Book getBookWithTitle(String title);

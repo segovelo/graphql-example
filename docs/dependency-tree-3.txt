@@ -1,0 +1,133 @@
+
+	spqr-0.9.7
+	graphql-spring-boot-starter-12.0.0
+	graphql-spqr-spring-boot-starter-0.0.6
+
+[INFO] ------------------< com.segovelo.api:graphql-example >------------------
+[INFO] Building graphql-example 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:3.3.0:tree (default-cli) @ graphql-example ---
+[INFO] com.segovelo.api:graphql-example:jar:0.0.1-SNAPSHOT
+[INFO] +- com.graphql-java-kickstart:graphql-spring-boot-starter:jar:12.0.0:compile
+[INFO] |  \- com.graphql-java-kickstart:graphql-spring-boot-autoconfigure:jar:12.0.0:compile
+[INFO] |     +- com.graphql-java-kickstart:graphql-java-tools:jar:11.1.2:compile
+[INFO] |     |  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.6.21:compile
+[INFO] |     |  |  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.6.21:compile
+[INFO] |     |  |  \- org.jetbrains:annotations:jar:13.0:compile
+[INFO] |     |  +- org.jetbrains.kotlin:kotlin-reflect:jar:1.6.21:compile
+[INFO] |     |  +- org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:jar:1.6.1:compile
+[INFO] |     |  |  +- org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:jar:1.6.1:compile
+[INFO] |     |  |  \- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.6.21:compile
+[INFO] |     |  |     \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.6.21:compile
+[INFO] |     |  +- org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:1.6.1:compile
+[INFO] |     |  +- org.jetbrains.kotlinx:kotlinx-coroutines-reactive:jar:1.6.1:compile
+[INFO] |     |  +- com.fasterxml:classmate:jar:1.5.1:compile
+[INFO] |     |  +- com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.13.2:compile
+[INFO] |     |  \- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO] |     +- com.graphql-java-kickstart:graphql-kickstart-spring-support:jar:12.0.0:compile
+[INFO] |     +- com.graphql-java-kickstart:graphql-kickstart-spring-webflux:jar:12.0.0:compile
+[INFO] |     +- com.graphql-java:graphql-java-extended-scalars:jar:17.0:compile
+[INFO] |     +- com.graphql-java-kickstart:graphql-java-kickstart:jar:12.0.0:compile
+[INFO] |     +- com.graphql-java-kickstart:graphql-java-servlet:jar:12.0.0:compile
+[INFO] |     |  +- javax.servlet:javax.servlet-api:jar:4.0.1:compile
+[INFO] |     |  \- javax.websocket:javax.websocket-api:jar:1.1:compile
+[INFO] |     +- io.github.graphql-java:graphql-java-annotations:jar:9.1:compile
+[INFO] |     |  \- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |     +- org.springframework.boot:spring-boot-autoconfigure:jar:2.7.0-RC1:compile
+[INFO] |     +- org.reflections:reflections:jar:0.9.11:runtime
+[INFO] |     |  +- com.google.guava:guava:jar:20.0:runtime
+[INFO] |     |  \- org.javassist:javassist:jar:3.21.0-GA:runtime
+[INFO] |     +- org.springframework.boot:spring-boot-starter-validation:jar:2.7.0-RC1:runtime
+[INFO] |     |  \- org.hibernate.validator:hibernate-validator:jar:6.2.3.Final:runtime
+[INFO] |     |     +- jakarta.validation:jakarta.validation-api:jar:2.0.2:runtime
+[INFO] |     |     \- org.jboss.logging:jboss-logging:jar:3.4.3.Final:runtime
+[INFO] |     \- org.apache.commons:commons-text:jar:1.9:runtime
+[INFO] +- io.leangen.graphql:graphql-spqr-spring-boot-starter:jar:0.0.6:compile
+[INFO] |  +- io.leangen.graphql:graphql-spqr-spring-boot-autoconfigure:jar:0.0.6:compile
+[INFO] |  |  \- io.leangen.graphql:graphql-spqr-spring-boot-annotations:jar:0.0.6:compile
+[INFO] |  \- io.projectreactor:reactor-core:jar:3.4.17:compile
+[INFO] |     \- org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[INFO] +- io.leangen.graphql:spqr:jar:0.9.7:compile
+[INFO] |  +- net.dongliu:gson-java8-datatype:jar:1.1.0:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.13.2.1:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.13.2:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.13.2:compile
+[INFO] |  +- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.13.2:compile
+[INFO] |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.13.2:compile
+[INFO] |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.2:compile
+[INFO] |  +- org.ow2.asm:asm:jar:6.0:compile
+[INFO] |  +- org.ow2.asm:asm-commons:jar:6.0:compile
+[INFO] |  |  \- org.ow2.asm:asm-tree:jar:6.0:compile
+[INFO] |  +- io.leangen.geantyref:geantyref:jar:1.3.4:compile
+[INFO] |  +- com.graphql-java:graphql-java:jar:18.0:compile
+[INFO] |  |  +- com.graphql-java:java-dataloader:jar:3.1.2:compile
+[INFO] |  |  \- org.antlr:antlr4-runtime:jar:4.9.3:runtime
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.36:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-actuator:jar:2.7.0-RC1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.7.0-RC1:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.7.0-RC1:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.7.0-RC1:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.17.2:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.17.2:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.36:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.30:compile
+[INFO] |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.7.0-RC1:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-actuator:jar:2.7.0-RC1:compile
+[INFO] |  \- io.micrometer:micrometer-core:jar:1.9.0-RC1:compile
+[INFO] |     +- org.hdrhistogram:HdrHistogram:jar:2.1.12:compile
+[INFO] |     \- org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[INFO] +- org.springframework.boot:spring-boot-starter-graphql:jar:2.7.0-RC1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.7.0-RC1:compile
+[INFO] |  \- org.springframework.graphql:spring-graphql:jar:1.0.0-RC1:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.7.0-RC1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.7.0-RC1:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.62:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.62:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.62:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.3.19:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.3.19:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.3.19:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.3.19:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.7.0-RC1:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.7.0-RC1:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.7.0-RC1:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.7.0:test
+[INFO] |  |  \- net.minidev:json-smart:jar:2.4.8:test
+[INFO] |  |     \- net.minidev:accessors-smart:jar:2.4.8:test
+[INFO] |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:1.2.2:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.22.0:test
+[INFO] |  +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter:jar:5.8.2:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-api:jar:5.8.2:test
+[INFO] |  |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  |  +- org.junit.platform:junit-platform-commons:jar:1.8.2:test
+[INFO] |  |  |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-params:jar:5.8.2:test
+[INFO] |  |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.8.2:test
+[INFO] |  |     \- org.junit.platform:junit-platform-engine:jar:1.8.2:test
+[INFO] |  +- org.mockito:mockito-core:jar:4.5.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.12.9:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.12.9:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:3.2:test
+[INFO] |  +- org.mockito:mockito-junit-jupiter:jar:4.5.0:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:5.3.19:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.3.19:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.3.19:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.9.0:test
+[INFO] +- org.springframework:spring-webflux:jar:5.3.19:test
+[INFO] |  \- org.springframework:spring-beans:jar:5.3.19:compile
+[INFO] \- org.springframework.graphql:spring-graphql-test:jar:1.0.0-RC1:test
+[INFO]    \- org.springframework:spring-context:jar:5.3.19:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.275 s
+[INFO] Finished at: 2022-05-22T17:39:46+01:00
+[INFO] ------------------------------------------------------------------------

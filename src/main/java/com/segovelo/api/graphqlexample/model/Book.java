@@ -1,4 +1,4 @@
-package com.segovelo.api.graphexample.model;
+package com.segovelo.api.graphqlexample.model;
 
 public class Book {
     private Integer id;

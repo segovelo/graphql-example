@@ -1,11 +1,12 @@
 package com.segovelo.api.graphqlexample.service;
 
-import com.segovelo.api.graphexample.model.Book;
 import io.leangen.graphql.annotations.GraphQLArgument;
 import io.leangen.graphql.annotations.GraphQLMutation;
 import io.leangen.graphql.annotations.GraphQLQuery;
 import io.leangen.graphql.spqr.spring.annotations.GraphQLApi;
 import org.springframework.stereotype.Service;
+
+import com.segovelo.api.graphqlexample.model.Book;
 
 import java.util.HashSet;
 import java.util.List;
